@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+main#body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url('/img/Netbook_Tablets_V.png');
+}
+
+@media only screen and (orientation: landscape) {
+    main#body {
+        background-image: url('/img/Websites_Desktops.png');
+    }
+}
