@@ -15,13 +15,28 @@ main#body {
     background-image: url('img/SmartPhones_V1.png');
 }
 
-@media only screen and (min-width: 600px) {
+/* tablets vertical */
+@media only screen and (min-width: 540px) {
     main#body {
         background-image: url('img/Netbook_Tablets_V.png');
     }
 }
 
+/* phone and small tablets horizontal */
 @media only screen and (orientation: landscape) {
+    main#body {
+        background-image: url('img/SmartPhones_H_Wide.png');
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-aspect-ratio: 4/3) {
+    main#body {
+        background-image: url('img/SmartPhones_H1.png')
+    }
+}
+
+/* tablets and PCs */
+@media only screen and (orientation: landscape) and (min-width: 960px) {
     main#body {
         background-image: url('img/Websites_Desktops.png');
     }
