@@ -12,7 +12,13 @@ main#body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-image: url('img/Netbook_Tablets_V.png');
+    background-image: url('img/SmartPhones_V1.png');
+}
+
+@media only screen and (min-width: 600px) {
+    main#body {
+        background-image: url('img/Netbook_Tablets_V.png');
+    }
 }
 
 @media only screen and (orientation: landscape) {
